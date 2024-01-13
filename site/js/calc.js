@@ -12,7 +12,9 @@ function calc(operation) {
             result = mul(x, y)
             break
         case '/':
-            result = div(x, y)
+            if (y == 0) result = "Ошибка";
+            else
+                result = div(x, y)
             break
     }
     document.getElementById("CalcResult").value = result
