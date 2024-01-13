@@ -1,6 +1,6 @@
 function calc(operation) {
     let x = parseInt(document.getElementById("numFirst").value)
-    let y = parseInt(document.getElementById("numFirst").value)
+    let y = parseInt(document.getElementById("numSecond").value)
     switch (operation) {
         case '+':
             result = add(x, y)
